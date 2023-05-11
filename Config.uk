@@ -1,0 +1,4 @@
+menuconfig LIBRAPIDJSON
+    bool "librapidjson - a fast JSON parser/generator for C++"
+	select LIBCXX
+    default n
